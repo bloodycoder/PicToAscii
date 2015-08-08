@@ -1,3 +1,4 @@
+#Not finished
 #Python 图片转字符画
 
 ##Need [pillow](http://pillow.readthedocs.org/en/latest/)
@@ -11,10 +12,10 @@ $ sudo pip install pillow
 ```Bash
 $ python ascii.py + pic.jpg
 ```
-example :
+</br>
 you can input 
 ```Bash
 $ python ascii.py + Ayanami.jpg
 ```
-int your terminal
+int your terminal,
 then the programer will create a file named "Ayanami.txt"
