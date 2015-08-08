@@ -19,3 +19,9 @@ $ python ascii.py + Ayanami.jpg
 ```
 int your terminal,
 then the programer will create a file named "Ayanami.txt"
+
+</br>
+you can change the 
+```Python
+ascii_char = list("$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,\"^`'. ")
+```
