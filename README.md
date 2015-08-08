@@ -11,3 +11,10 @@ $ sudo pip install pillow
 ```Bash
 $ python ascii.py + pic.jpg
 ```
+example :
+you can input 
+```Bash
+$ python ascii.py + Ayanami.jpg
+```
+int your terminal
+then the programer will create a file named "Ayanami.txt"
