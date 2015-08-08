@@ -25,9 +25,9 @@ print "Pic to ASCII : " + FILENAME.split('.')[0]
 print "========================="
 print " "
 
-ascii_char = list("!@#$%^&*()_+")
+#ascii_char = list("!@#$%^&*()_+")
 #ascii_char = list("QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890!!@#$%^&*()_+-=~`")
-#big to small
+ascii_char = list("$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,\"^`'. ")
 
 
 
