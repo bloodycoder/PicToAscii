@@ -15,9 +15,15 @@ parser.add_argument('--height', type = int, default = 80) #输出字符画高
 args = parser.parse_args()
 
 IMG = args.file
+FILENAME = args.file
 WIDTH = args.width
 HEIGHT = args.height
 OUTPUT = args.output
+
+print "========================="
+print "Pic to ASCII : " + FILENAME.split('.')[0]
+print "========================="
+print " "
 
 ascii_char = list("!@#$%^&*()_+")
 #ascii_char = list("QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890!!@#$%^&*()_+-=~`")
@@ -54,5 +60,5 @@ if __name__ == '__main__':
         with open(OUTPUT,'w') as f:
             f.write(txt)
     else:
-        with open("output.txt",'w') as f:
+        with open(FILENAME.split('.')[0]+".txt",'w') as f:
             f.write(txt)
